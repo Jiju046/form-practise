@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms practise</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+<div class="form-container">
+    <h3>Details</h3>
+    <form>
+    <table>
+        <tr>
+            
+                    <td>
+                        <!-- first name -->
+                        <label>First Name<sup>*</sup></label>
+                        <input type="text" class="text-box1" required>
+
+                    </td>
+                    <td>
+                        <!-- last name -->
+                        <label>Last Name<sup>*</sup></label>
+                        <input type="text" class="text-box1" required>
+                    </td>
+                
+                
+            
+        </tr>
+        <tr>
+
+                    <td>
+                        <!-- email -->
+                        <label>Email<sup>*</sup></label>
+                        <input type="email" class="text-box1">
+                    </td>
+                    <td>
+                        <!-- password -->
+                        <label>Password<sup>*</sup></label>
+                        <input type="password" class="text-box1">
+                    </td>
+        </tr>
+        <tr>
+                    <td>
+                        <!-- select -->
+                        <label>Gender</label>
+                        <select class="text-box1">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </td>
+                    <td>
+                         <!-- dob -->
+                        <label>DOB<sup>*</sup></label>
+                        <input type="date" class="text-box1">
+                    </td>
+            
+        </tr>
+        <tr>
+                    <td>
+                        <!-- tel -->
+                       <label>Phone<sup>*</sup></label>
+                       <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="text-box1">
+                   </td>
+            
+        </tr>
+        <tr>
+            <td  colspan="2">
+                <!-- address -->
+                <label>Address Line 1<sup>*</sup></label>
+                <input type="text" class="text-box2">
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label>Address Line 2<sup>*</sup></label>
+                <input type="text" class="text-box2">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="radio-button" colspan="2">
+                <!-- radio -->
+                <label>Are you a citizen of India</label>
+                <input type="radio">
+                <label>Yes</label>
+                <input type="radio">
+                <label>No</label>
+                
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- color -->
+                <label>Pick a Color</label>
+                <input type="color" >
+            </td>
+            <td>
+                <!-- time -->
+                <label>Select a Time for callback</label>
+                <input type="time" class="text-box1"> 
+  
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                 <!-- url -->
+                <label>LinkedIn Profile(url)</label>
+                <input type="url" class="text-box2">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label>Your Comments</label>
+                 <!-- teaxtarea -->
+                <textarea name="" class="text-box2" cols="30" rows="10"></textarea>
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <!-- file -->
+            <label>Upload your portfolio</label>
+            <input type="file" >
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <!-- search -->
+                <label>Search</label>
+                <input type="search" class="text-box2">
+            </td>
+             
+        </tr>
+        <tr>
+            <td colspan="2">
+            <!-- range -->
+            <label>Rate Us</label>
+            <input type="range" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                 <!-- check-box -->
+                <input type="checkbox"> 
+                <label>I Agree the Terms and Conditions<sup>*</sup></label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <!-- button -->
+                <button type="submit">Submit</button>
+            </td>
+             
+        </tr>
+    </table>
+
+</form>
+
+    </div>
+</div>
+    
+</body>
+</html>
